@@ -1,9 +1,8 @@
-# experiment-6-pipeline
 pipeline {
     agent any
     tools {
-        maven 'MAVEN_HOME'
-        jdk 'JDK17'
+        maven 'Maven'
+        jdk 'jdk'
     }
     stages {
         stage('Checkout') {
